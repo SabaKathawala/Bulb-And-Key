@@ -11,6 +11,10 @@ p {
 	font-size: 18px;
 }
 
+img {
+	margin:0 auto;
+}
+
 h3 {
 	color: #414141;
 }
