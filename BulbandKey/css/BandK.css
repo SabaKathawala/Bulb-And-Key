@@ -1,0 +1,84 @@
+#logo {
+	margin: 50px auto;
+}
+
+body {
+	font-family: 'Varela Round';
+}
+
+p {
+	color: #868686;
+	font-size: 18px;
+}
+
+h3 {
+	color: #414141;
+}
+
+#about .row {
+	margin-bottom: 150px;
+}
+
+.timeline-panel{
+	margin-top: 60px;	
+}
+
+.section-heading {
+	margin-bottom: 20px;
+	margin-top: 40px;
+	text-transform: uppercase;
+}
+
+.section-subheading{
+	padding: 10px 120px;
+	font-size: 18px;
+	margin-bottom: 50px;
+
+}
+
+/**********************************
+Media Queries
+***********************************/
+@media (min-width: 501px) and (max-width: 901px) {
+    #logo {
+		margin: 20px auto;
+	}
+	#about .row {
+		margin-bottom: 80px;
+	}
+	.timeline-panel{
+		margin-top: 60px;	
+	}
+	.section-subheading{
+		margin-bottom: 0px;
+		padding: 0
+	}
+	.section-heading {
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+}
+
+@media (min-width: 20px) and (max-width: 500px) {
+    #about .row {
+		margin-bottom: 50px;
+	}
+	.section-heading {
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+	#logo {
+		margin: 20px auto;
+	}
+	.section-subheading{
+		padding: 0;
+		margin-bottom: 0px;
+	}
+	.timeline-panel{
+		margin-top: 0px;	
+	}
+	p {
+		line-height: 1.2;
+	}
+
+}
