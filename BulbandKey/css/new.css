@@ -1,0 +1,107 @@
+#logo {
+	margin: 10px auto;
+	width:150px;
+}
+
+body {
+	font-family: 'Varela Round';
+}
+
+p {
+	color: #868686;
+	font-size: 15px;
+}
+
+
+h3 {
+	color: #414141;
+	margin-top:10px;
+}
+
+hr {
+	margin: 10px 0;
+}
+
+img {
+	margin: auto;
+}
+
+#about img{
+	height: 90px;
+}
+
+.timeline-panel{
+	/*margin-top: 60px;	*/
+}
+
+.section-heading {
+	/*margin-bottom: 10px;*/
+	margin-top: 10px;
+	text-transform: uppercase;
+	font-size: 28px;
+	font-weight: bolder;
+}
+
+.section-subheading{
+	/*padding: 10px 120px;*/
+	font-size: 16px;
+	margin-bottom: 25px;
+
+}
+
+/**********************************
+Media Queries
+***********************************/
+@media (min-width: 501px) and (max-width: 901px) {
+	.section-subheading{
+		margin-bottom: 15px;
+		padding: 0
+	}
+	.section-heading {
+		/*margin-bottom: 20px;*/
+		/*margin-top: 20px;*/
+	}
+	.section-heading {
+		font-size: 26px;
+	}
+	.section-subheading{
+		/*font-size: 18px;*/
+		margin-bottom: 20px;
+	}
+	#logo {
+		margin: 10px auto;
+		width:140px;
+	}
+	#about .row {
+		margin-bottom: 20px;
+	}
+}
+
+@media (min-width: 20px) and (max-width: 500px) {
+    #about .row {
+		margin-bottom: 20px;
+	}
+	p {
+		/*line-height: 1.2;*/
+	}
+	.section-heading {
+		font-size: 24px;
+	}
+	.section-subheading{
+		/*font-size: 16px;*/
+	}
+	#logo {
+		margin: 10px auto;
+		width:140px;
+	}
+	#about img {
+		width: auto;
+	}
+	.subheading {
+		font-size: 20px;
+	}
+
+	p {
+		font-size: 16px;
+	}
+}
