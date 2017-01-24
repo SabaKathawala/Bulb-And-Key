@@ -19,6 +19,10 @@ h3 {
 	font-size:22px;
 }
 
+#about .row {
+	margin-top:30px;
+}
+
 hr {
 	margin: 10px 0;
 }
@@ -74,13 +78,13 @@ Media Queries
 		width:140px;
 	}
 	#about .row {
-		margin-bottom: 20px;
+	margin-top:10px;
 	}
 }
 
 @media (min-width: 20px) and (max-width: 500px) {
     #about .row {
-		margin-bottom: 20px;
+		margin-top: 20px;
 	}
 	p {
 		/*line-height: 1.2;*/
